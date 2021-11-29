@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow and tootip</title>
+    <style> 
+    .tooltip .tool-text{
+        visibility: hidden;
+        width: 100px;
+        height: 50px;
+        background-color: green;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        position: absolute;
+        top:100px;
+        LEFT:100PX
+
+    } 
+    .tooltip{
+        position: relative;
+        text-decoration: none;
+    }
+    .tooltip:hover .tool-text{
+        visibility: visible;
+    }
+   
+    </style>
+
+<body>
+    <a href="#" class="tooltip">
+    <h1>KHALID PARVEZ</h1>
+            <span class="tool-text">Don't care person</span></a>
+        
+    
+    </a>
+    
+</body>
+</html>
